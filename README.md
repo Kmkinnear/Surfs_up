@@ -1,39 +1,35 @@
 # Surfs_up
 
 ## Project Overview
-
+The purpose of this project was to further examine information about the temperature trends in Oahu for the months of June and December that would help in determining if the surf shop business would be sustainable year-round. We also decided to take a look at rainfall amounts for June and December since we thought that would be another valuable piece of information. We remembered that in that earlier in the module, W. Avy was concerned about the amount of percipiation in Oahu. 
 
 ## Results
 
-### Deliverable 1
-The goal of this deliverable was to split dataset into columns (backer_id, cf_id, name, and email)
+### Deliverable 1 - June Temperature
+The first thing that we wanted to look at the was temperature trends for all of the June data that we had in our dataset. We had had to right a query that would filter the data and only return data for the month of June.
+
+![image](https://user-images.githubusercontent.com/110848660/201247919-c354bca8-f01f-48e3-83b2-b0e8fcc91f1f.png)
+
+The next thing that we wanted to do was convert our June temperature query to a list and then create a dataframe from that list that we'd be able to run some summary statistics on. 
+
+![image](https://user-images.githubusercontent.com/110848660/201248679-a0ecf4a7-1f7f-466b-ac6b-bdf737be96c8.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201248732-3385e622-6ef1-4931-ba5c-bae60c99828d.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201248842-30622dcb-f32b-4203-8d94-02f1ac65ee95.png)
+
+### Deliverable 2 - December Temperatures
+The goal of this deliverable was to complete the same query but to adjust it to pull all of the data for the month of December. We were able to use the same code throughout the deliverable while making some minor tweaks to capture December data instead of June.
+
+![image](https://user-images.githubusercontent.com/110848660/201249176-2841088e-826a-450e-bf31-5d434af03d45.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201249209-2efbec4c-dc42-40ed-8f88-eb3ecdcb4e55.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201249282-5ad8f258-6d00-4093-8262-c19c426ef981.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201249323-d2f4bd7c-d4aa-400c-b425-75f43ffe834d.png)
 
 
 
-### Deliverable 2
-The goal of this deliverable was to split "name" column into "first_name" and "last_name" and then drop the "name" column
-
-
-
-### Deliverable 3
-The goal of this deliverable was to first update the schema and relationship diagram for our previous crowfunding database. Then create a new table named "backers" in pgAdmin. We also had to use the "ALTER TABLE" statement to change our previous tables we had created in the module.
-
-
-
-### Deliverable 4
-There were 4 different goals in Deliverable 4 as a bonus that involved running separate queries.
-- Query 1 asked us to retrieve the number of backer counts (listed in descending order) for each "cf_id" for all "live" campaigns
-
-
-
-- Query 2 asked us to run the same data but to also use the "backers" table. This allowed us to use an "INNER JOIN" to achieve the same result as the previous query
-
-
-
-- Query 3 asked us to create a new table using the contact table that would list the first_name, last_name, email, and remaining goal amount (in descending order). This was tricky because we had to add in a function to our code to calculate the remaining goal amount by subtracting the pledged amount columns from our goal amount columns and create a new column with the remaining amount
-
-
-
-- Query 4 asked us to create a new table using the backers table that listed the email, first_name, last_name, cf_id, company_name, description, end_date, and left of goal amount
 
 
