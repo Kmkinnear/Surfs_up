@@ -34,7 +34,19 @@ The goal of this deliverable was to complete the same query but to adjust it to 
 - We wanted to look at the "min" temperature next as part of our second takeaway. We assumed it would be valuable to look at the "min" temperature since one of the months in our datasets is traditionally one of the coldest months in most areas of the country. We we looked at the two months "min" temperatures, we saw more of a variance than we did when we compared the average temperatures. The min temperature in June was 64 degrees while the min temperature in December was 56 degrees for a difference of 8 degrees.
 
 - The last takeaway was around checking to see if we had a sufficient amount of temperature observations between our two months that we observed. We wanted to make sure that it was consistent throughout the year to make sure that our data was not skewed. We're able to see that we had a "count" of 1700 temperature observations in June and 1517 temperature observations in December. This is a difference of about 200 total observations between the two months. Despite the temperature count discrepeancy, we feel like there is sufficient data to make an honest comparison between the two months as it relates to temperature.
-- 
-### Summary
 
+## Summary
 
+As we mentioned above, we believe there is sufficient data to be able to make a confident decision on what kind of weather we can expect to see in Oahu in June and December. The average temperatures are very similar between the two months despite one of the months falling in the summer and one in the winter. The main difference we saw was in the minimum temperature we observed and this was primarily due to the time of the year. We would've liked to see a more consistent total count of observations throughout the year but being off by 200 obseervations over the course of multiple years didn't seem to cause too much alarm with the data.
+
+As part of the final part of our analysis between the two months, we decided to look at the precipitation numbers and compare them because we knew that W. Avy had previously voiced concerns about there possibly being too much percipitation. To put him at ease we decided to run the precipiration totals to go along with our temperature data. 
+
+We ended up using some of the same code as we used to pull the temperature data however we made one small change to pull "prcp" data instead of "tobs". We followed the same process of creating a list with the data, creating a dataframe, and then running summary statistics on them. You can see the queries that we used and the summary statistics below for June and December.
+
+![image](https://user-images.githubusercontent.com/110848660/201251645-da20c43e-f3be-4a70-ab01-07fd3273302b.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201251810-102b22e2-0dfb-451b-87c9-4af632baa145.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201251988-0b85f779-41a7-40e8-a438-84196df17c31.png)
+
+![image](https://user-images.githubusercontent.com/110848660/201252077-70a868fc-cc2b-4aaf-baf1-be3e951de6b0.png)
