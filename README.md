@@ -29,7 +29,12 @@ The goal of this deliverable was to complete the same query but to adjust it to 
 
 ![image](https://user-images.githubusercontent.com/110848660/201249323-d2f4bd7c-d4aa-400c-b425-75f43ffe834d.png)
 
+- The first takeaway that we have from comparing the temprature between June and December is that there isn't a big variance in the "mean" temperature between the two months. We can see that the mean June temperature is 74.94 and the mean temperature for December is 71 which is only a difference of 3 degrees
 
+- We wanted to look at the "min" temperature next as part of our second takeaway. We assumed it would be valuable to look at the "min" temperature since one of the months in our datasets is traditionally one of the coldest months in most areas of the country. We we looked at the two months "min" temperatures, we saw more of a variance than we did when we compared the average temperatures. The min temperature in June was 64 degrees while the min temperature in December was 56 degrees for a difference of 8 degrees.
 
+- The last takeaway was around checking to see if we had a sufficient amount of temperature observations between our two months that we observed. We wanted to make sure that it was consistent throughout the year to make sure that our data was not skewed. We're able to see that we had a "count" of 1700 temperature observations in June and 1517 temperature observations in December. This is a difference of about 200 total observations between the two months. Despite the temperature count discrepeancy, we feel like there is sufficient data to make an honest comparison between the two months as it relates to temperature.
+- 
+### Summary
 
 
